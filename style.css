@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(216, 216, 16);
+    text-align: center;
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    font-family: Verdana;
+    font-size: 40px;
+}
+
+td{
+    padding: 10px;
+}
+
+hr{
+    height: 2px;
+    width:100%;
+    border: none;
+    border-radius: 10px;
+    background: #eee;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 3px 2px;
+}
+
+.score{
+    text-align: right;
+}
+
+.main{
+    color: rgb(0, 41, 41);
+    font-family: Verdana;
+    font-size: x-large;
+    text-align: center;
+    margin-inline: auto;
+}
+
+.table{
+    padding: 20px;
+    margin-left: 40%;
+    width: 21%;
+}
+
+.left{
+    text-align: left;
+}
+
+#scoretable{
+    padding: 40px;
+}
+
+
+.btn{
+  align-items: center;
+  background-color: #bf7600;
+  border-radius: 6px;
+  border-width: 0;
+  color: #fefefe;
+  padding: 10px;
+  font-family: "JetBrains Mono",monospace;
+  font-size: 18px;
+}
+
+.btn:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #793600 0 -3px 0 inset;
+}

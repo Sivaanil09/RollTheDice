@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess the number</title>
+</head>
+<body>
+    <div class="main">
+    <h3>Reach 30</h3>
+        <br>
+    
+    <div id="scoretable">
+        <table class="table">
+            <tr><td class="left">Player 1 score:</td> <td><span class="score" id="p1"></span>  </td></tr>
+            <tr><td class="left">Player 2 score:</td> <td><span class="score" id="p2"></span>  </td></tr>
+            <tr><td class="left" id="bottom">&emsp;&emsp;&emsp;&emsp;&emsp;Dice:</td><td><span class="score" id="current"></span> </td></tr>
+        </table>
+    </div>
+
+    <button class="btn" id="roll" onclick="rollDice()">ROLL</button> &emsp;&emsp;
+    
+    <button class="btn" id="reset" onclick="reset()">RESET</button>  <br><br>
+    
+    <span id="winner"></span>
+
+    <input type="hidden" id="turn" value="1">
+    <input type="hidden" id="p1score" value="0">
+    <input type="hidden" id="p2score" value="0">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
